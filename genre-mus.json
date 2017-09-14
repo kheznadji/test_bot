@@ -1,0 +1,39 @@
+{
+  "id": "a8da1bc8-6024-4557-8883-2c5cefeb80fc",
+  "name": "genre-mus",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "rock",
+      "synonyms": [
+        "rock"
+      ]
+    },
+    {
+      "value": "rap",
+      "synonyms": [
+        "rap"
+      ]
+    },
+    {
+      "value": "jazz",
+      "synonyms": [
+        "jazz"
+      ]
+    },
+    {
+      "value": "electro",
+      "synonyms": [
+        "electro"
+      ]
+    },
+    {
+      "value": "musique",
+      "synonyms": [
+        "musique"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

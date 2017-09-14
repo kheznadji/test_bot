@@ -1,0 +1,27 @@
+{
+  "id": "4fba9e2d-02cd-4b01-a472-bfd0c3856c19",
+  "name": "genre-vet",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "homme",
+      "synonyms": [
+        "homme"
+      ]
+    },
+    {
+      "value": "femme",
+      "synonyms": [
+        "femme"
+      ]
+    },
+    {
+      "value": "enfant",
+      "synonyms": [
+        "enfant"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

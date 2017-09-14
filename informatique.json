@@ -1,0 +1,45 @@
+{
+  "id": "db1a80a7-37b5-43e4-bef2-0e1e3cec5990",
+  "name": "informatique",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "informatique",
+      "synonyms": [
+        "informatique"
+      ]
+    },
+    {
+      "value": "tablette",
+      "synonyms": [
+        "tablette"
+      ]
+    },
+    {
+      "value": "imprimante",
+      "synonyms": [
+        "imprimante"
+      ]
+    },
+    {
+      "value": "ordinateur",
+      "synonyms": [
+        "ordinateur"
+      ]
+    },
+    {
+      "value": "PC",
+      "synonyms": [
+        "PC"
+      ]
+    },
+    {
+      "value": "matériel",
+      "synonyms": [
+        "matériel"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

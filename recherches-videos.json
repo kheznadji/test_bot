@@ -1,0 +1,27 @@
+{
+  "id": "03f4ad9f-695b-4072-9c6e-58da2a3a916e",
+  "name": "recherches-videos",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "recherches",
+      "synonyms": [
+        "recherches"
+      ]
+    },
+    {
+      "value": "vidéo",
+      "synonyms": [
+        "vidéo"
+      ]
+    },
+    {
+      "value": "vidéos",
+      "synonyms": [
+        "vidéos"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

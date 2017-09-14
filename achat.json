@@ -1,0 +1,69 @@
+{
+  "id": "163571aa-9a3b-449a-96c7-35eab8852ef2",
+  "name": "achat",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "chaussure",
+      "synonyms": [
+        "chaussure"
+      ]
+    },
+    {
+      "value": "vêtement",
+      "synonyms": [
+        "vêtement"
+      ]
+    },
+    {
+      "value": "ordinateur",
+      "synonyms": [
+        "ordinateur"
+      ]
+    },
+    {
+      "value": "musique",
+      "synonyms": [
+        "musique"
+      ]
+    },
+    {
+      "value": "m\u0027offrir",
+      "synonyms": [
+        "m\u0027offrir"
+      ]
+    },
+    {
+      "value": "livres",
+      "synonyms": [
+        "livres"
+      ]
+    },
+    {
+      "value": "choses",
+      "synonyms": [
+        "choses"
+      ]
+    },
+    {
+      "value": "cadeau",
+      "synonyms": [
+        "cadeau"
+      ]
+    },
+    {
+      "value": "acheter",
+      "synonyms": [
+        "acheter"
+      ]
+    },
+    {
+      "value": "offrir",
+      "synonyms": [
+        "offrir"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

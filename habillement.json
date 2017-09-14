@@ -1,0 +1,45 @@
+{
+  "id": "83d47ac7-7413-49c4-8fb3-3b4bceccc0f0",
+  "name": "habillement",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "pull",
+      "synonyms": [
+        "pull"
+      ]
+    },
+    {
+      "value": "pentalon",
+      "synonyms": [
+        "pentalon"
+      ]
+    },
+    {
+      "value": "chaussures",
+      "synonyms": [
+        "chaussures"
+      ]
+    },
+    {
+      "value": "veste",
+      "synonyms": [
+        "veste"
+      ]
+    },
+    {
+      "value": "chemise",
+      "synonyms": [
+        "chemise"
+      ]
+    },
+    {
+      "value": "vêtements",
+      "synonyms": [
+        "vêtements"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "8fc3e280-6f5a-4810-b3fe-54c38f7664da",
+  "name": "electro",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "l\u0027electro",
+      "synonyms": [
+        "l\u0027electro"
+      ]
+    },
+    {
+      "value": "electro",
+      "synonyms": [
+        "electro"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

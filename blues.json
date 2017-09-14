@@ -1,0 +1,15 @@
+{
+  "id": "d129f68c-e9c9-4572-b00e-72abcc79ec23",
+  "name": "blues",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "blues",
+      "synonyms": [
+        "blues"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

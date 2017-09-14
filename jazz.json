@@ -1,0 +1,15 @@
+{
+  "id": "0b980572-30e7-4646-a67a-67bdb4c482b2",
+  "name": "jazz",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "jazz",
+      "synonyms": [
+        "jazz"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

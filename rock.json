@@ -1,0 +1,15 @@
+{
+  "id": "cce9ec15-cccf-4f56-a431-2effaae676f5",
+  "name": "rock",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "rock",
+      "synonyms": [
+        "rock"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,27 @@
+{
+  "id": "88f416ab-c66e-4a23-9554-2449f0fc8318",
+  "name": "film",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "film",
+      "synonyms": [
+        "film"
+      ]
+    },
+    {
+      "value": "films",
+      "synonyms": [
+        "films"
+      ]
+    },
+    {
+      "value": "série",
+      "synonyms": [
+        "série"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}
