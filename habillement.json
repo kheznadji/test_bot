@@ -1,45 +1,162 @@
 {
-  "id": "83d47ac7-7413-49c4-8fb3-3b4bceccc0f0",
-  "name": "habillement",
-  "isOverridable": true,
-  "entries": [
+  "userSays": [
     {
-      "value": "pull",
-      "synonyms": [
-        "pull"
-      ]
+      "id": "06c1384a-1a96-462e-bbbb-8e670a800e45",
+      "data": [
+        {
+          "text": "de "
+        },
+        {
+          "text": "l\u0027habillement",
+          "alias": "habillement",
+          "meta": "@habillement",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     },
     {
-      "value": "pentalon",
-      "synonyms": [
-        "pentalon"
-      ]
+      "id": "341dd1b0-aa6d-4717-adff-572521610a30",
+      "data": [
+        {
+          "text": "je veux m\u0027"
+        },
+        {
+          "text": "acheter",
+          "alias": "achat",
+          "meta": "@achat",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "un",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "pull",
+          "alias": "habillement",
+          "meta": "@habillement",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
     },
     {
-      "value": "chaussures",
-      "synonyms": [
-        "chaussures"
-      ]
+      "id": "3e19a7d1-4208-4223-81d3-bc02afd89397",
+      "data": [
+        {
+          "text": "je cherche "
+        },
+        {
+          "text": "un",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " pentanol"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     },
     {
-      "value": "veste",
-      "synonyms": [
-        "veste"
-      ]
+      "id": "95f2059a-9076-4e4b-9061-2b39781b7001",
+      "data": [
+        {
+          "text": "je veux "
+        },
+        {
+          "text": "acheter",
+          "alias": "achat",
+          "meta": "@achat",
+          "userDefined": false
+        },
+        {
+          "text": " des "
+        },
+        {
+          "text": "chaussures",
+          "alias": "habillement",
+          "meta": "@habillement",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     },
     {
-      "value": "chemise",
-      "synonyms": [
-        "chemise"
-      ]
-    },
-    {
-      "value": "vêtements",
-      "synonyms": [
-        "vêtements"
-      ]
+      "id": "24901c99-2867-4995-8858-a243ae12a321",
+      "data": [
+        {
+          "text": "je cherches des "
+        },
+        {
+          "text": "vêtements",
+          "alias": "habillement",
+          "meta": "@habillement",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     }
   ],
-  "isEnum": false,
-  "automatedExpansion": false
+  "id": "9688ee66-070b-48a6-9ed3-4b29925975c2",
+  "name": "habillement",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@achat",
+          "name": "achat",
+          "value": "$achat",
+          "isList": false
+        },
+        {
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@habillement",
+          "name": "habillement",
+          "value": "$habillement",
+          "prompts": [
+            "des vêtements pour homme ? pour femme ? pour enfant ?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "ok des vêtements pour homme ? pour femme ? pour enfant ?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
 }

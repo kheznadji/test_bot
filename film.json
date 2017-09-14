@@ -1,27 +1,191 @@
 {
-  "id": "88f416ab-c66e-4a23-9554-2449f0fc8318",
-  "name": "film",
-  "isOverridable": true,
-  "entries": [
+  "userSays": [
     {
-      "value": "film",
-      "synonyms": [
-        "film"
-      ]
+      "id": "9dc7556b-a55c-4929-9de9-8f35da1d541d",
+      "data": [
+        {
+          "text": "je cherche une "
+        },
+        {
+          "text": "série",
+          "alias": "film",
+          "meta": "@film",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     },
     {
-      "value": "films",
-      "synonyms": [
-        "films"
-      ]
+      "id": "1a1415cb-b1be-4688-bb92-452035fc6998",
+      "data": [
+        {
+          "text": "je cherche un "
+        },
+        {
+          "text": "film",
+          "alias": "film",
+          "meta": "@film",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     },
     {
-      "value": "série",
-      "synonyms": [
-        "série"
-      ]
+      "id": "dbf3ba32-6bfc-4d17-999f-31bd6d6b26dd",
+      "data": [
+        {
+          "text": "je veux regarder un bon "
+        },
+        {
+          "text": "films",
+          "alias": "film",
+          "meta": "@film",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc6ab925-1c8c-4b16-a6c5-ccc53986afb3",
+      "data": [
+        {
+          "text": "je veux voir un "
+        },
+        {
+          "text": "film",
+          "alias": "film",
+          "meta": "@film",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9358d368-5981-40ce-b89f-664b769ce30f",
+      "data": [
+        {
+          "text": "un "
+        },
+        {
+          "text": "film",
+          "alias": "film",
+          "meta": "@film",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c223f30-7431-4aa8-9880-67b22adf51a1",
+      "data": [
+        {
+          "text": "je veux regarder un bon "
+        },
+        {
+          "text": "film",
+          "alias": "film",
+          "meta": "@film",
+          "userDefined": true
+        },
+        {
+          "text": " et pas cher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d8e065cf-f21f-4454-90fb-18d6103b57d5",
+      "data": [
+        {
+          "text": "je veux avoir un bon choix de "
+        },
+        {
+          "text": "films",
+          "alias": "film",
+          "meta": "@film",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ef9a1a7-4b0f-4fb2-ae4d-12086c702fb0",
+      "data": [
+        {
+          "text": "je veux choisir un "
+        },
+        {
+          "text": "film",
+          "alias": "film",
+          "meta": "@film",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab8959bf-3c75-4097-9070-ba93d3d8f183",
+      "data": [
+        {
+          "text": "je veux regarder un "
+        },
+        {
+          "text": "film",
+          "alias": "film",
+          "meta": "@film",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     }
   ],
-  "isEnum": false,
-  "automatedExpansion": false
+  "id": "0f7cbad0-5017-4a11-85c8-e91a68e6d5e7",
+  "name": "film",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "film",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@film",
+          "name": "film",
+          "value": "$film",
+          "prompts": [
+            "ok voici une bonne adresse pour des bons films https://www.fnac.com/fnacplay."
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "ok voici une bonne adresse pour des bons films https://www.fnac.com/fnacplay."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
 }

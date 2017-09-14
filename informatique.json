@@ -1,45 +1,203 @@
 {
-  "id": "db1a80a7-37b5-43e4-bef2-0e1e3cec5990",
-  "name": "informatique",
-  "isOverridable": true,
-  "entries": [
+  "userSays": [
     {
-      "value": "informatique",
-      "synonyms": [
-        "informatique"
-      ]
+      "id": "c075c509-a1df-484c-9457-80929cb7b22c",
+      "data": [
+        {
+          "text": "je veux m\u0027offrir un "
+        },
+        {
+          "text": "PC",
+          "alias": "informatique",
+          "meta": "@informatique",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     },
     {
-      "value": "tablette",
-      "synonyms": [
-        "tablette"
-      ]
+      "id": "1caf286b-f89f-4eee-a762-a975b9a8990a",
+      "data": [
+        {
+          "text": "je cherche un "
+        },
+        {
+          "text": "ordinateur",
+          "alias": "informatique",
+          "meta": "@informatique",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     },
     {
-      "value": "imprimante",
-      "synonyms": [
-        "imprimante"
-      ]
+      "id": "481db509-b5f4-4892-a9b0-1d9f9c8f0dd7",
+      "data": [
+        {
+          "text": "je cherche une "
+        },
+        {
+          "text": "tablette",
+          "alias": "informatique",
+          "meta": "@informatique",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     },
     {
-      "value": "ordinateur",
-      "synonyms": [
-        "ordinateur"
-      ]
+      "id": "9c20aa1e-5a49-431a-9146-ed4d0e73e747",
+      "data": [
+        {
+          "text": "je cherche un "
+        },
+        {
+          "text": "imprimante",
+          "alias": "informatique",
+          "meta": "@informatique",
+          "userDefined": true
+        },
+        {
+          "text": " pas cher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     },
     {
-      "value": "PC",
-      "synonyms": [
-        "PC"
-      ]
+      "id": "2909e682-479a-4d0b-b8de-ea4048b83aed",
+      "data": [
+        {
+          "text": "je veux "
+        },
+        {
+          "text": "acheter",
+          "alias": "achat",
+          "meta": "@achat",
+          "userDefined": true
+        },
+        {
+          "text": " une "
+        },
+        {
+          "text": "tablette",
+          "alias": "informatique",
+          "meta": "@informatique",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     },
     {
-      "value": "matériel",
-      "synonyms": [
-        "matériel"
-      ]
+      "id": "9e3482bc-6abe-48ed-8e00-8230dbc656d4",
+      "data": [
+        {
+          "text": "je cherche du "
+        },
+        {
+          "text": "matériel",
+          "alias": "informatique",
+          "meta": "@informatique",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "informatique",
+          "alias": "informatique",
+          "meta": "@informatique",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f7d847c7-236a-425b-8de5-d6987821d7ab",
+      "data": [
+        {
+          "text": "je veux "
+        },
+        {
+          "text": "un",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ordinateur",
+          "alias": "informatique",
+          "meta": "@informatique",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     }
   ],
-  "isEnum": false,
-  "automatedExpansion": false
+  "id": "aa07d88c-7c2d-48fa-b838-d84899b8b9db",
+  "name": "informatique",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "informatique",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@informatique",
+          "name": "informatique",
+          "value": "$informatique",
+          "prompts": [
+            "ok pour du matériel informatique je te conseille https://www.fnac.com/Informatique/shi48966/w-4"
+          ],
+          "isList": true
+        },
+        {
+          "required": true,
+          "dataType": "@achat",
+          "name": "achat",
+          "value": "$achat",
+          "prompts": [
+            "ok pour du matériel informatique je te conseille https://www.fnac.com/Informatique/shi48966/w-4"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "ok pour du matériel informatique je te conseille https://www.fnac.com/Informatique/shi48966/w-4"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
 }

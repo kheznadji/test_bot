@@ -1,0 +1,146 @@
+{
+  "userSays": [
+    {
+      "id": "b9fc4855-b776-437e-bc2f-95e36bb0bef0",
+      "data": [
+        {
+          "text": "je veux "
+        },
+        {
+          "text": "offrir",
+          "alias": "achat",
+          "meta": "@achat",
+          "userDefined": true
+        },
+        {
+          "text": " quelque chose"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8cb59633-d9d3-4b7a-ba47-bc0a564e32bf",
+      "data": [
+        {
+          "text": " je veux faire un "
+        },
+        {
+          "text": "cadeau",
+          "alias": "achat",
+          "meta": "@achat",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "506a00d2-6cb6-46f2-8d06-aff9fec8d9fc",
+      "data": [
+        {
+          "text": "faire des "
+        },
+        {
+          "text": "courses",
+          "alias": "achat",
+          "meta": "@achat",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "569a741f-8b41-4f88-8ef7-54bee4732c18",
+      "data": [
+        {
+          "text": "achats",
+          "alias": "achat",
+          "meta": "@achat",
+          "userDefined": true
+        },
+        {
+          "text": " en ligne"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ba23dd6e-dffe-494f-ab2e-c3b96ee2128a",
+      "data": [
+        {
+          "text": "je veux faire du "
+        },
+        {
+          "text": "shopping",
+          "alias": "achat",
+          "meta": "@achat",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc317ec6-0789-405c-b1fb-b5d392a6451b",
+      "data": [
+        {
+          "text": "je veux "
+        },
+        {
+          "text": "acheter",
+          "alias": "achat",
+          "meta": "@achat",
+          "userDefined": true
+        },
+        {
+          "text": " des choses"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "28cb6b07-b3b3-40bb-b0fa-1545eb9e7537",
+  "name": "achats",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "achat",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@achat",
+          "name": "achat",
+          "value": "$achat",
+          "prompts": [
+            "Quel genre d\u0027achat voulez-vous faire ? vêtements,  matériel informatique, musique, film ?"
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Quel genre d\u0027achat voulez-vous faire ? vêtements,  matériel informatique, musique, film ?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,15 +1,73 @@
 {
-  "id": "d129f68c-e9c9-4572-b00e-72abcc79ec23",
-  "name": "blues",
-  "isOverridable": true,
-  "entries": [
+  "userSays": [
     {
-      "value": "blues",
-      "synonyms": [
-        "blues"
-      ]
+      "id": "cec0193c-597f-4275-84be-c04bedc2665b",
+      "data": [
+        {
+          "text": "je veux du "
+        },
+        {
+          "text": "blues",
+          "alias": "blues",
+          "meta": "@blues",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2037ec51-b153-4fa9-b037-824405c3cbf4",
+      "data": [
+        {
+          "text": "du "
+        },
+        {
+          "text": "blues",
+          "alias": "blues",
+          "meta": "@blues",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     }
   ],
-  "isEnum": false,
-  "automatedExpansion": false
+  "id": "4cfa3ebf-07b5-40f9-a8b4-48d924f8f10b",
+  "name": "blues",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@blues",
+          "name": "blues",
+          "value": "$blues",
+          "prompts": [
+            "ok pour du blues https://www.amazon.fr/Musique-cd-Blues/b?ie\u003dUTF8\u0026node\u003d3612171"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "ok pour du blues regarde https://www.amazon.fr/Musique-cd-Blues/b?ie\u003dUTF8\u0026node\u003d3612171e523653874d1\u0026pf_rd_i\u003d77196031",
+            ""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
 }

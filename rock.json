@@ -1,15 +1,87 @@
 {
-  "id": "cce9ec15-cccf-4f56-a431-2effaae676f5",
-  "name": "rock",
-  "isOverridable": true,
-  "entries": [
+  "userSays": [
     {
-      "value": "rock",
-      "synonyms": [
-        "rock"
-      ]
+      "id": "ec846faa-8c38-4424-a51c-a568abea1473",
+      "data": [
+        {
+          "text": "j\u0027aime bien le "
+        },
+        {
+          "text": "rock",
+          "alias": "rock",
+          "meta": "@rock",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "12c8b0d5-094c-41fb-9c5c-78414ebbc86b",
+      "data": [
+        {
+          "text": "je veux écouter du "
+        },
+        {
+          "text": "rock",
+          "alias": "rock",
+          "meta": "@rock",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5cfbd95c-440c-40d2-9d2c-2926c2875be6",
+      "data": [
+        {
+          "text": "du "
+        },
+        {
+          "text": "rock",
+          "alias": "rock",
+          "meta": "@rock",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     }
   ],
-  "isEnum": false,
-  "automatedExpansion": false
+  "id": "1fb259d4-47ca-4f5e-a793-216f331d0974",
+  "name": "rock",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@rock",
+          "name": "rock",
+          "value": "$rock",
+          "prompts": [
+            "pour du rock rock regarde ici https://www.amazon.fr/Musique-cd-Rock/b?ie\u003dUTF8\u0026node\u003d3065251"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "pour du rock regarde ici https://www.amazon.fr/Musique-cd-Rock/b?ie\u003dUTF8\u0026node\u003d3065251e523653874d1\u0026pf_rd_i\u003d77196031"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
 }

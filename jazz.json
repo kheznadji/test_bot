@@ -1,15 +1,102 @@
 {
-  "id": "0b980572-30e7-4646-a67a-67bdb4c482b2",
-  "name": "jazz",
-  "isOverridable": true,
-  "entries": [
+  "userSays": [
     {
-      "value": "jazz",
-      "synonyms": [
-        "jazz"
-      ]
+      "id": "9f70f598-74cd-41ea-8cd0-174239a91463",
+      "data": [
+        {
+          "text": "j\u0027aime bien le "
+        },
+        {
+          "text": "jazz",
+          "alias": "jazz",
+          "meta": "@jazz",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "57b70896-c42b-4381-b1ba-b9fad6be9266",
+      "data": [
+        {
+          "text": "du "
+        },
+        {
+          "text": "jazz",
+          "alias": "jazz",
+          "meta": "@jazz",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "76f6ef0f-30a8-41d1-89fd-bad0252e93d3",
+      "data": [
+        {
+          "text": "je veux écouter du "
+        },
+        {
+          "text": "jazz",
+          "alias": "jazz",
+          "meta": "@jazz",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "191f0df7-b1aa-4968-be99-d8da0a60f6e3",
+      "data": [
+        {
+          "text": "oui, du "
+        },
+        {
+          "text": "jazz",
+          "alias": "jazz",
+          "meta": "@jazz",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     }
   ],
-  "isEnum": false,
-  "automatedExpansion": false
+  "id": "7dfe6634-3f61-4a89-9d99-25ff9e72aead",
+  "name": "jazz",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@jazz",
+          "name": "jazz",
+          "value": "$jazz",
+          "prompts": [
+            "tu cherches du jazz ? ok je te conseille https://www.amazon.fr/Musique-cd-Jazz/b?ie\u003dUTF8\u0026node\u003d301175"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "pour du jazz je te conseille https://www.amazon.fr/Musique-cd-Jazz/b?ie\u003dUTF8\u0026node\u003d301175"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
 }

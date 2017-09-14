@@ -1,0 +1,75 @@
+{
+  "userSays": [
+    {
+      "id": "b28394ef-8e21-475c-bdd4-987ef0882e0e",
+      "data": [
+        {
+          "text": "Bonsoir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3355dfa7-9ee2-4e9b-92be-6b3ef03c01ff",
+      "data": [
+        {
+          "text": "Bonjour"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aef16bb8-fbbf-46cd-8ca6-8f88acbff161",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "caca748c-c59e-4201-abbe-4285dc30a1e2",
+      "data": [
+        {
+          "text": "Salut"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f69d7f11-4a38-4a6b-9caa-37f0a91595e1",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hello je suis là pour t\u0027aider à trouver la machine qui te convient. Dis moi ce que tu souhaites faire ? tu souhaite faire des achats ? faire des recherches ? regarder des vidéos ?",
+            ""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

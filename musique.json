@@ -1,0 +1,184 @@
+{
+  "userSays": [
+    {
+      "id": "dc5b602a-cdd8-41d0-98aa-76c52e862682",
+      "data": [
+        {
+          "text": "je veux "
+        },
+        {
+          "text": "acheter",
+          "alias": "achat",
+          "meta": "@achat",
+          "userDefined": true
+        },
+        {
+          "text": " de la "
+        },
+        {
+          "text": "musique",
+          "alias": "music-artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a73525f2-9cc6-470e-9db7-7eefdb784c61",
+      "data": [
+        {
+          "text": "de la "
+        },
+        {
+          "text": "musique",
+          "alias": "music-artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0649006-abe2-43e7-94c3-b063149ca2dc",
+      "data": [
+        {
+          "text": "musique"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "424b1bfb-f30e-4850-bbff-b8a5be5ffa39",
+      "data": [
+        {
+          "text": "je cherche une "
+        },
+        {
+          "text": "chanson",
+          "alias": "music-artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8778316-f5a8-4b26-9b1f-99652289f99b",
+      "data": [
+        {
+          "text": "je cherche une "
+        },
+        {
+          "text": "musique",
+          "alias": "music-artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "037ae572-4776-4d00-b345-56704ec802f3",
+      "data": [
+        {
+          "text": "donne moi un bon choix de "
+        },
+        {
+          "text": "musique",
+          "alias": "music-artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a8a80507-0ea1-4135-b22f-94ed1aaa2209",
+      "data": [
+        {
+          "text": "je veux regarder des "
+        },
+        {
+          "text": "clips",
+          "alias": "music-artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "854f3267-a384-4589-a482-8daba3aec0d7",
+      "data": [
+        {
+          "text": "je veux écouter de la "
+        },
+        {
+          "text": "musique",
+          "alias": "music-artist",
+          "meta": "@sys.music-artist",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8ddbb95e-e5f5-4599-8047-0a7f0b1d76ba",
+  "name": "musique",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "musique",
+      "affectedContexts": [
+        {
+          "name": "musique",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.music-artist",
+          "name": "music-artist",
+          "value": "$music-artist",
+          "prompts": [
+            "Ok pour de la musique regarde sur https://www.amazon.fr/telecharger-musique-mp3-amazon-music%C2%A0/b?ie\u003dUTF8\u0026node\u003d77196031. Tu cherche un genre en particulier ? jazz, electro, rock, blues ?"
+          ],
+          "isList": false
+        },
+        {
+          "dataType": "@achat",
+          "name": "achat",
+          "value": "$achat",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

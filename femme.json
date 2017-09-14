@@ -1,0 +1,90 @@
+{
+  "userSays": [
+    {
+      "id": "786ef955-a61f-41d5-b3e6-cf617cc1a2e8",
+      "data": [
+        {
+          "text": "je veux des "
+        },
+        {
+          "text": "vêtement",
+          "alias": "habillement",
+          "meta": "@habillement",
+          "userDefined": true
+        },
+        {
+          "text": " pour "
+        },
+        {
+          "text": "femme",
+          "alias": "genre-vet",
+          "meta": "@genre-vet",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "805943f1-63b1-4d1d-9ac8-ae40ff25bb1a",
+      "data": [
+        {
+          "text": "pour "
+        },
+        {
+          "text": "femme",
+          "alias": "genre-vet",
+          "meta": "@genre-vet",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "af9f65a6-d96e-4e6b-ba65-82e9a5cea228",
+  "name": "femme",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@genre-vet",
+          "name": "genre-vet",
+          "value": "$genre-vet",
+          "prompts": [
+            "pour des vêtement pour femme consulte https://www.amazon.fr/vetements-femme-mode/b?ie\u003dUTF8\u0026node\u003d436559031"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@habillement",
+          "name": "habillement",
+          "value": "$habillement",
+          "prompts": [
+            "habillement femme ? regarde https://www.amazon.fr/vetements-femme-mode/b?ie\u003dUTF8\u0026node\u003d436559031"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,172 @@
+{
+  "userSays": [
+    {
+      "id": "a7e11386-5815-4a9a-a540-77364e549d9f",
+      "data": [
+        {
+          "text": "des "
+        },
+        {
+          "text": "vêtements",
+          "alias": "habillement",
+          "meta": "@habillement",
+          "userDefined": true
+        },
+        {
+          "text": " pour "
+        },
+        {
+          "text": "homme",
+          "alias": "genre-vet",
+          "meta": "@genre-vet",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc8e918f-0623-4f41-87f4-ead79efd6472",
+      "data": [
+        {
+          "text": "pour "
+        },
+        {
+          "text": "homme",
+          "alias": "genre-vet",
+          "meta": "@genre-vet",
+          "userDefined": true
+        },
+        {
+          "text": " s\u0027il te plait"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8c99a268-3eca-445f-9bb8-d94d236078fd",
+      "data": [
+        {
+          "text": "je veux "
+        },
+        {
+          "text": "acheter",
+          "alias": "achat",
+          "meta": "@achat",
+          "userDefined": true
+        },
+        {
+          "text": " des "
+        },
+        {
+          "text": "chaussures",
+          "alias": "habillement",
+          "meta": "@habillement",
+          "userDefined": true
+        },
+        {
+          "text": " pour "
+        },
+        {
+          "text": "homme",
+          "alias": "genre-vet",
+          "meta": "@genre-vet",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "523736ff-45a7-4028-80ed-ef04042cc044",
+      "data": [
+        {
+          "text": "pour "
+        },
+        {
+          "text": "homme",
+          "alias": "genre-vet",
+          "meta": "@genre-vet",
+          "userDefined": true
+        },
+        {
+          "text": " aussi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "07ed6ead-6117-4659-af5d-7a7f4d2042b1",
+      "data": [
+        {
+          "text": "je cherche des "
+        },
+        {
+          "text": "vêtement",
+          "alias": "habillement",
+          "meta": "@habillement",
+          "userDefined": true
+        },
+        {
+          "text": " pour "
+        },
+        {
+          "text": "homme",
+          "alias": "genre-vet",
+          "meta": "@genre-vet",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5be925cf-4caa-4d74-bcf8-af683de0a074",
+  "name": "homme",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@habillement",
+          "name": "habillement",
+          "value": "$habillement",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@genre-vet",
+          "name": "genre-vet",
+          "value": "$genre-vet",
+          "prompts": [
+            "des vêtements pour homme ? voici une bonne boutique  https://www.amazon.fr/vetements-homme-mode/b?ie\u003dUTF8\u0026node\u003d436560031"
+          ],
+          "isList": false
+        },
+        {
+          "dataType": "@achat",
+          "name": "achat",
+          "value": "$achat",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "des vêtements pour homme ? voici une bonne boutique  https://www.amazon.fr/vetements-homme-mode/b?ie\u003dUTF8\u0026node\u003d436560031"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

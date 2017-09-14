@@ -1,0 +1,85 @@
+{
+  "userSays": [
+    {
+      "id": "2dbab9c4-3477-4130-84ca-c596a3959d94",
+      "data": [
+        {
+          "text": "des "
+        },
+        {
+          "text": "vêtements",
+          "alias": "habillement",
+          "meta": "@habillement",
+          "userDefined": true
+        },
+        {
+          "text": " pour "
+        },
+        {
+          "text": "enfant",
+          "alias": "genre-vet",
+          "meta": "@genre-vet",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "caee3c0c-c6ee-4b4d-b38e-1511c1f7380e",
+      "data": [
+        {
+          "text": "pour "
+        },
+        {
+          "text": "enfant",
+          "alias": "genre-vet",
+          "meta": "@genre-vet",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c65532dc-5008-41a8-b98d-82408a1ea90a",
+  "name": "enfant",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@genre-vet",
+          "name": "genre-vet",
+          "value": "$genre-vet",
+          "prompts": [
+            "pour enfant ? ok! regarde ici http://www.kiabi.com/enfant-fille_200015"
+          ],
+          "isList": false
+        },
+        {
+          "dataType": "@habillement",
+          "name": "habillement",
+          "value": "$habillement",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "pour enfant ? ok! regarde ici http://www.kiabi.com/enfant-fille_200015"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

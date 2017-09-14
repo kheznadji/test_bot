@@ -1,0 +1,102 @@
+{
+  "userSays": [
+    {
+      "id": "38a6a47c-398c-4c54-86e2-85f165f3c450",
+      "data": [
+        {
+          "text": "des "
+        },
+        {
+          "text": "vidéos",
+          "alias": "recherches-videos",
+          "meta": "@recherches-videos",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2581ff2-c1fb-4801-83e2-51b410e19b5c",
+      "data": [
+        {
+          "text": "je veux regarder des "
+        },
+        {
+          "text": "vidéos",
+          "alias": "recherches-videos",
+          "meta": "@recherches-videos",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e0a817d-e27d-431b-8985-dc11f69f8e9b",
+      "data": [
+        {
+          "text": "faire des "
+        },
+        {
+          "text": "recherches",
+          "alias": "recherches-videos",
+          "meta": "@recherches-videos",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2cd2aea4-320c-4b98-980e-de90d3ad6b36",
+      "data": [
+        {
+          "text": "je veux faire quelque "
+        },
+        {
+          "text": "recherches",
+          "alias": "recherches-videos",
+          "meta": "@recherches-videos",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1b572c73-0a46-4e55-811b-e7c8337d6cfe",
+  "name": "vidéos-recherche",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@recherches-videos",
+          "name": "recherches-videos",
+          "value": "$recherches-videos",
+          "prompts": [
+            "Pour des recherches www.google.fr, pour des vidéos regarde www.youtube.fr ou www.dailymotion.fr"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Pour des recherches www.google.fr, pour des vidéos regarde www.youtube.fr ou www.dailymotion.fr"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

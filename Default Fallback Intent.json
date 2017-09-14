@@ -1,0 +1,32 @@
+{
+  "userSays": [],
+  "id": "528c8cd3-b974-4e00-8ae6-d17dd775a065",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "J\u0027ai du mal à comprendre cette question.",
+            "J\u0027ai mal compris ta demande.",
+            "Je n\u0027ai pas saisi ce que tu as dit.",
+            "Je crois que je ne te suis pas.",
+            "Je ne comprends pas de quoi tu me parles."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

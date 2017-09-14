@@ -1,21 +1,87 @@
 {
-  "id": "8fc3e280-6f5a-4810-b3fe-54c38f7664da",
-  "name": "electro",
-  "isOverridable": true,
-  "entries": [
+  "userSays": [
     {
-      "value": "l\u0027electro",
-      "synonyms": [
-        "l\u0027electro"
-      ]
+      "id": "552df87e-bd2c-4a57-aa6f-3a8e5deec2be",
+      "data": [
+        {
+          "text": "de la "
+        },
+        {
+          "text": "musique",
+          "alias": "genre-mus",
+          "meta": "@genre-mus",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "electro",
+          "alias": "electro",
+          "meta": "@electro",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     },
     {
-      "value": "electro",
-      "synonyms": [
-        "electro"
-      ]
+      "id": "8445022a-6e2c-453d-ab99-9245caeeaa35",
+      "data": [
+        {
+          "text": "je veux de "
+        },
+        {
+          "text": "l\u0027electro",
+          "alias": "electro",
+          "meta": "@electro",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     }
   ],
-  "isEnum": false,
-  "automatedExpansion": false
+  "id": "13a50af7-1fa5-4991-b4f7-d4db93502fe8",
+  "name": "electro",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@electro",
+          "name": "electro",
+          "value": "$electro",
+          "prompts": [
+            "l\u0027electro regarde là https://www.amazon.fr/Musique-cd-%C3%89lectro-Techno/b?ie\u003dUTF8\u0026node\u003d301168"
+          ],
+          "isList": false
+        },
+        {
+          "required": false,
+          "dataType": "@genre-mus",
+          "name": "genre-mus",
+          "value": "$genre-mus",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "si tu cherches de l\u0027electro regarde là https://www.amazon.fr/Musique-cd-%C3%89lectro-Techno/b?ie\u003dUTF8\u0026node\u003d301168"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
 }
